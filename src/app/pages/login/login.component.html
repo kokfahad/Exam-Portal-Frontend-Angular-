@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-md-6 offset-md-3">
+            <mat-card class="mt-3">
+                <div class="container text-center">
+                    <img src="../../../assets/signup.png" alt="" style="height: 100px;">
+                </div>
+                <div class="text-center">
+                    <h1>Login Here !!</h1>
+                </div>
+                <form>
+                    <!-- username field -->
+                    <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>Username</mat-label>
+                        <input matInput name="username" placeholder="Enter here" required>
+                        <mat-hint>Valid User Name</mat-hint>
+                    </mat-form-field>
+
+                    <!-- password field -->
+                    <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>Password</mat-label>
+                        <input matInput type="password" name="password" placeholder="Enter here" required>
+                    </mat-form-field>
+
+                    <div class="container text-center">
+                        <button mat-raised-button color="primary" type="submit">Login</button>
+                        <button class="ml-3" mat-raised-button color="accent">Reset</button>
+                    </div>
+                </form>
+            </mat-card>
+        </div>
+    </div>
+</div>
